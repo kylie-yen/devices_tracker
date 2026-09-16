@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地数据库：属于个人数据，不进版本库
+*.db
+*.db-wal
+*.db-shm
+
+# 导出的表格
+exports/
+
+# 测试缓存
+.pytest_cache/
